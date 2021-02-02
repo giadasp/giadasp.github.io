@@ -135,7 +135,7 @@ a:hover{text-decoration:underline;}
 .wrapper-holder {
 	width:100%;
     display:table-row;
-    background: #50af6f;
+    background: #71b687;
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -214,9 +214,9 @@ h2.slogan{
 #main{
 	max-width: 1170px;
 	margin: 0 auto;
-	padding: 93px 0 76px;
+	padding:50px 0 76px;
 	position:relative;
-	background: url(../images/icon_header.png) no-repeat 50% 0;
+	/* background: url(../images/icon_header.png) no-repeat 50% 0; */
 }
 #main h2{
 	display: block;
@@ -271,7 +271,7 @@ h2.slogan{
 }
 .box_timeline h3{
 	font-family: 'novecento_sans_widemedium';
-	color: #50af6f;
+	color: #71b687;
 	font-size: 14px;
 	line-height: 16px;
 	display: block;
@@ -318,7 +318,7 @@ h2.slogan{
 	margin: 0 0 27px;
 }
 .progress li span{
-	background: #50af6f;
+	background: #71b687;
 	color: #fff;
 	text-transform:uppercase;
 	display: block;
@@ -395,8 +395,8 @@ h2.slogan{
 	font-weight: normal;
 }
 .sub_nav a:hover,.sub_nav a.active{
-	color: #50af6f;
-	border-bottom: 4px solid #50af6f;
+	color: #71b687;
+	border-bottom: 4px solid #71b687;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -416,8 +416,8 @@ transition: all 0.5s ease-in-out;
 	font-weight: normal;
 }
 .sub_nav li:hover,.sub_nav .active {
-	color: #50af6f;
-	border-bottom: 4px solid #50af6f;
+	color: #71b687;
+	border-bottom: 4px solid #71b687;
 	text-decoration: none;
 	cursor: pointer;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -441,6 +441,7 @@ transition: all 0.5s ease-in-out;
 	text-align: center;
 	width: 270px;
 	margin: 0 auto;
+	/* top: 70px !important; */
 }
 .item .image {
 	position: relative;
@@ -452,10 +453,10 @@ transition: all 0.5s ease-in-out;
 }
 .item .hover {
 	display: none;
-	height: 100%;
+	height: auto;
     left: 0;
     position: absolute;
-    top: 0;
+    top: -40%;
     width: 100%;
     background: #6abb84;
 	opacity: 0.9;
@@ -556,7 +557,7 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li:first-child{margin: 0;}
 .footer-content .social li:hover{
-	background: #50af6f;
+	background: #71b687;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
@@ -568,6 +569,7 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
 .footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
+.footer-content .social li.linkedin a{background: url(../images/icon_linkedin.png) no-repeat 50% 50%;}
 .footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
 .footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
 .footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;}
@@ -606,7 +608,7 @@ transition: all 0.5s ease-in-out;
 .popup_portfolio img {
 	width: 100%;
 	height: auto;
-	border-radius: 8px;
+	border-radius: 50%;
 }
 .fancybox-close {
 	width: 46px;
@@ -617,7 +619,7 @@ transition: all 0.5s ease-in-out;
 }
 .fancybox-opened .fancybox-skin{
 	padding: 20px !important;
-	border-radius: 10px;
+	border-radius: 50%;
 }
 .fancybox-nav {
 	display: none;
@@ -626,8 +628,8 @@ transition: all 0.5s ease-in-out;
 
 @media (-webkit-min-device-pixel-ratio:2) ,(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	#main {
-		background-image: url(../images/icon_header@x2.png);
-		background-size:114px 46px;
+		/* background-image: url(../images/icon_header@x2.png);
+		background-size:114px 46px; */
 	}
 	.menu_trigger{
 		background-image: url(../images/btn_mobile_menu@x2.png);
@@ -656,6 +658,10 @@ transition: all 0.5s ease-in-out;
 	.footer-content .social li.facebook a{
 		background-image: url(../images/icon_fb@x2.png);
 		background-size:20px 38px;
+	}
+	.footer-content .social li.linkedin a{
+		background-image: url(../images/icon_linkedin@x2.png);
+		background-size:32px 32px;
 	}
 	.footer-content .social li.google a{
 		background-image: url(../images/icon_gl@x2.png);
