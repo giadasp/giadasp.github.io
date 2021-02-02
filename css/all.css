@@ -433,7 +433,7 @@ transition: all 0.5s ease-in-out;
 }
 .item-list li {
 	display:inline-block;
-	margin: 0 0 25px 24px;
+	margin: 0 0 0px 24px;
 	vertical-align: top;
 	font-size: 0;
 }
@@ -454,9 +454,11 @@ transition: all 0.5s ease-in-out;
 .item .hover {
 	display: none;
 	height: auto;
-    left: 0;
+	left: 0;
+	right: 0;
     position: absolute;
-    top: -40%;
+	top: 0;
+	bottom:0;
     width: 100%;
     background: #6abb84;
 	opacity: 0.9;
