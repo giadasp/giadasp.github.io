@@ -368,7 +368,7 @@ h2.slogan{
 .plagin_list li.li_6 a{background: url(../images/icon_wp.png) no-repeat 50% 50% ;}
 .plagin_list li.li_7 a{background: url(../images/icon_jq.png) no-repeat 50% 50% ;}
 .plagin_list li.li_8 a{background: url(../images/icon_seo.png) no-repeat 50% 50% ;}
-.wrapper-holder.grey p{padding: 0 0 25px;}
+.wrapper-holder.grey p{padding: 0 0 0px;}
 .plagin_list.none{display: none;}
 
 /*portfolio*/
@@ -439,7 +439,7 @@ transition: all 0.5s ease-in-out;
 }
 .item {
 	text-align: center;
-	width: 270px;
+	width: 150px;
 	margin: 0 auto;
 	/* top: 70px !important; */
 }
@@ -467,12 +467,12 @@ transition: all 0.5s ease-in-out;
 }
 .item .hover.active{display: block;}
 .item .item-content {
-	position: relative;
-	display: table-cell;
-	vertical-align: middle;
-	height: 270px;
-	z-index: 400;
-	padding: 0 30px;
+	    /* vertical-align: middle; */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width:100%;
+		transform: translate(-50%, -50%);
 }
 .item a{
 	text-decoration: none;

@@ -36,8 +36,8 @@ $(document).ready(function() {
 		itemSelector: '.item',
 		layoutMode: 'cellsByRow',
 		cellsByRow: {
-			columnWidth: 295,
-			rowHeight: 295
+			columnWidth: 175,
+			rowHeight: 175
 		}
 		});
 		
