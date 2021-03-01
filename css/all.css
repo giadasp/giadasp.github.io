@@ -312,8 +312,9 @@ h2.slogan{
 text-align:center
 }
 .cv-holder .cv-frame {
-	width: 80%;
-	height:5000px
+	width: 90%;
+	max-width: 800px;
+	min-height:5100px
 }
 .progress{
 	overflow: hidden;
