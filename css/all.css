@@ -308,9 +308,12 @@ h2.slogan{
 	float: right;
 	margin: 0;
 }
-
-.cv-frame {
+.cv-holder{
+text-align:center
+}
+.cv-holder .cv-frame {
 	width: 80%;
+	height:5000px
 }
 .progress{
 	overflow: hidden;
@@ -363,7 +366,6 @@ h2.slogan{
 .plagin_list li:first-child{margin: 0;}
 .plagin_list li a{
 	display: block;
-	vertical-align: middle;
 	height: 100%;
 	position: relative;
 }
