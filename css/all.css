@@ -308,6 +308,10 @@ h2.slogan{
 	float: right;
 	margin: 0;
 }
+
+.cv-frame {
+	width: 80%;
+}
 .progress{
 	overflow: hidden;
 	width: 100%;
@@ -346,11 +350,9 @@ h2.slogan{
 	margin: 0 0 65px;
 }
 .plagin_list li{
-	float:left;
 	margin: 0 0 0 25px;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
-	text-indent: -9999px;
 	background: #28292b;
 	width: 121px;
 	height: 121px;
@@ -365,7 +367,7 @@ h2.slogan{
 	height: 100%;
 	position: relative;
 }
-.plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
+.plagin_list li.cv_ita a{ color:white; font-size: 1.2em; transform:translate(-50%,-22%); position:absolute; text-align: center; top:50%;left:50%;} 
 .plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
 .plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
 .plagin_list li.li_4 a{background: url(../images/icon_fl.png) no-repeat 50% 50% ;}
@@ -682,10 +684,10 @@ transition: all 0.5s ease-in-out;
 		background-image: url(../images/icon_pn@x2.png);
 		background-size:38px 38px;
 	}
-	.plagin_list li.li_1 a{
-		background-image: url(../images/icon_ps@x2.png);
+	/* .plagin_list li.cv_ita a{
+		background-image: url(../images/cv_ita@2.png);
 		background-size:49px 42px;
-	}
+	} */
 	.plagin_list li.li_2 a{
 		background-image: url(../images/icon_ai@x2.png);
 		background-size:45px 42px;
